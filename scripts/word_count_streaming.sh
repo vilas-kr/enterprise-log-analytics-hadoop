@@ -21,8 +21,8 @@ INPUT_DIR=/small-log-file-analytics/input
 OUTPUT_DIR=/small-log-file-analytics/output
 
 # Local script path
-MAPPER=./streams/word_count_mapper.py
-REDUCER=./streams/word_count_reducer.py
+MAPPER=./streaming/word_count_mapper.py
+REDUCER=./streaming/word_count_reducer.py
 
 # Cleat output directory
 echo "Removing old HDFS output directory..."
